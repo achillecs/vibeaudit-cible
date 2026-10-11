@@ -1,4 +1,18 @@
+# Dependencies
 node_modules/
+
+# Next.js build output
 .next/
-.env*
-.vercel/
+out/
+
+# Environment variables (never commit secrets)
+.env
+.env.local
+.env*.local
+
+# Generated/build output directories (may contain secrets or build artifacts)
+graphify-out/
+
+# Misc
+.DS_Store
+*.log
